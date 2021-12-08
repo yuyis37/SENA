@@ -1,0 +1,42 @@
+<div id=container>
+    <div id=contenedor>
+      <a class="retornar"  ><h6>_X_ </h6></a><br>
+    </div>
+  <div id=container_Registro>
+    
+  
+  <div class="row g-3" >
+  <div class="col-md-6">
+    <label for="inputname" class="form-label">Nombres</label>
+    <input type="email" class="form-control"  [(ngModel)]="registro.nombres" placeholder="Nombres">
+  </div>
+  <div class="col-md-6">
+    <label for="inputsurname" class="form-label">Apellidos</label>
+    <input type="email" class="form-control"  [(ngModel)]="registro.apellidos" placeholder="Apellidos">
+  </div>
+    <div class="col-md-6">
+      <label for="inputemail" class="form-label">E-mail</label>
+      <input type="email" class="form-control" [(ngModel)]="registro.email"  placeholder="Correo">
+    </div>
+    <div class="col-6">
+      <label for="inputphone" class="form-label">Celular</label>
+      <input type="text" class="form-control" [(ngModel)]="registro.celular" placeholder="300*******">
+    </div>
+    <div class="col-md-6">
+      <label for="inputpassword" class="form-label">Password</label>
+      <input type="password" class="form-control" [(ngModel)]="registro.password" placeholder="Contraseña">
+    </div>
+    <div class="col-md-6">
+      <label for="inputpassword" class="form-label">Confirmación</label>
+      <input type="password" class="form-control" [(ngModel)]="registro.confirm"  placeholder="Contraseña">
+    </div>
+    <div class="col-md-6">
+      <label for="inputcity" class="form-label"  placeholder="Ciudad">Ciudad</label>
+      <input type="text" class="form-control" [(ngModel)]="registro.ciudad" >
+    </div>
+    <div class="col-6">
+      <button type="submit" class="btn btn-primary" (click)="registrarusuario(registro)" style="background-color: rgb(60, 90, 223); color: white; border-color: rgb(37, 16, 226);">Registrar</button>
+    </div>
+  </div>
+  </div>
+  </div>

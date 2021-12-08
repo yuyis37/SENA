@@ -1,0 +1,80 @@
+#container{
+    border: solid;
+    border-radius: 15px;
+    border-color: rgb(60, 94, 243);
+    display: block;
+    max-width: 420px;
+    background-color: aliceblue;
+    margin: auto;
+    align-content: center;
+    margin-top: 16px;
+
+}
+#container_login{
+
+    display: block;
+    max-width: 400px;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: auto;
+    align-content: center;
+    line-height: 40px;
+    padding: 5px  40px;
+    margin-top: 18px;
+}
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(160, 198, 247);
+}
+.boton.btn.btn-primary{
+    background: rgb(60, 84, 223);
+    margin-top:15px;
+    margin-left: 33%;
+    margin-bottom: 10px;
+    color: white;
+    border-color: rgb(12, 31, 204);
+}
+.form-control{
+    color: rgb(43, 41, 41);
+    
+}
+h1{
+    text-align: center;
+    position: absolute;
+    top: 6%;
+    margin-inline-start: 1px;
+    margin-inline-end: 1px;
+}
+.retornar{
+    text-align: end;
+}
+.contenedor{
+    display: block;
+    background-color: rgb(5, 32, 59);
+    height: 3px;
+    width: 3px;
+    text-align: right;
+    color: black;
+    
+}
+#usuario.img{
+    align-content: center;
+    height: 4em;
+    width: 4em;
+    
+}
+img{
+    width: 50%; height: 50%;
+    margin-top: 0px;
+  
+   
+
+}
+div#usuario{
+    text-align: center;
+}
+.nuevoregistro{
+    padding-inline-end: 10px;
+}

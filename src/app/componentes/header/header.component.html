@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg ">
+    <a class="navbar-brand" routerLink="/home">Clinica Risitas</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <a class="nav-link dropdown-toggle" routerLink="/login" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+            Login
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" routerLink="/registro">Registro</a>
+            <a class="dropdown-item"  (click)=" Cerrarsesion()">Cerrar Sesión</a>
+           
+          </div>
+          <li class="nav-item active">
+            <a class="nav-link" *ngIf="usuarioservice.estadoLogueado" routerLink="/cita">Cita</a>
+          </li>
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/tratamientos">Tratamientos <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contactenos">Contactenos</a>
+        </li>
+      
+      </ul>
+    </div>
+  </nav>

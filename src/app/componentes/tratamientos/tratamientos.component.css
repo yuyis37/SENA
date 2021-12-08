@@ -1,0 +1,50 @@
+img.foto{
+    height: 275px;
+    width: 220px;
+    padding: 9px;
+    margin: 13px;
+}
+.card{
+    float: left;
+    margin-left: 150px;
+    margin-bottom: 60px;
+    margin-top:60px;
+    cursor: pointer;
+    /* background-color:rgb(252, 246, 246); */
+    background-color:rgb(252, 246, 246);
+    border-color:rgb(248, 162, 202);
+    
+} 
+section{
+    height: 80%;
+    background-color: white;
+  
+}
+.container_card{
+    background-color: white;
+    height: auto;
+}
+
+.contenedor{
+  display: flex; 
+    
+}
+.card-title{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Oswald', sans-serif;
+    /* color: rgb(148, 146, 52); */
+    color: rgb(255, 255, 251);
+
+    border:solid 0.5px;
+    background-color:rgb(252, 152, 199);
+    /* background-color:rgb(36, 34, 34); */
+
+}
+.card2{
+    text-align: center;
+    color: rgb(90, 19, 122);
+}

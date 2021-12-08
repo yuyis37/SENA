@@ -1,0 +1,58 @@
+#container{
+    border: solid;
+    border-radius: 15px;
+    border-color: rgb(38, 57, 235);
+    display: block;
+    max-width: 600px;
+    background-color: aliceblue;
+    margin: auto;
+    align-content: center;
+    margin-top: 16px;
+
+}
+
+#container_Registro{
+
+    display: block;
+    max-width: 600px;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: auto;
+    align-content: center;
+    line-height: 40px;
+    padding: 40px  40px;
+    margin-top: 18px;
+}
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(121, 138, 214);
+}
+
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.boton{
+    background-color: rgb(27, 41, 230);
+}
+.form-control{
+    color: black;
+    
+}
+h1{
+    text-align: center;
+    position: absolute;
+    top: 6%;
+    margin-inline-start: 4px;
+    margin-inline-end: 6px;
+}
+.retornar{
+ text-align: right;
+}
+button.btn.btn-primary {
+    margin: 48px;
+}

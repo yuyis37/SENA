@@ -1,0 +1,9 @@
+.divmensaje{
+    border: solid 1px blueviolet;
+    height:  75px;
+    border-radius:  9px;
+    padding: 8px;
+    background: burlywood;
+    color: white;
+    margin-bottom: 5px;
+}

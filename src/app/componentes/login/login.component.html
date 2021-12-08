@@ -1,0 +1,28 @@
+<div id=container>
+    <div id=contenedor>
+      <a class="retornar" ><h6> </h6></a><br>
+    </div>
+   <div id=container_login>
+    
+   
+  <div id="usuario">
+    <img src="assets/iconos/usuario.png" alt="usuario">
+  </div>
+  <div id="form" class="row g-3"  >
+      <div class="col-md-12">
+        <label for="inputEmail4" class="form-label">E-mail</label>
+        <input type="email" class="form-control" placeholder="Correo" [(ngModel)]="email">
+      </div>
+      <div class="col-md-12">
+        <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control" placeholder="Contraseña"  [(ngModel)]="password">
+      </div>
+      <div class="col-12">
+        <button type="submit" class="boton btn btn-primary" (click)=" iniciarsesion()">Ingresar</button>
+      </div>
+    <div>
+      <a class="nuevoregistro"  routerLink="/registro" ><h6>¿No estas registrado? - Registrate aquí</h6></a>
+    </div>
+  </div>
+  </div>
+  </div>
