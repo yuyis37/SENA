@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .ventana {
     width: 40%;
     background:  rgb(215 231 247);
@@ -34,4 +35,13 @@ button.btn-nuevo.btn.btn-success {
     width: 53 px;
     height: 40px;
     
+=======
+.contenedor {
+    width: 753px;
+    height: 245px;
+    margin: 26px;
+    padding: 16px;
+    border: 2px solid;
+    border-radius: 19px;
+>>>>>>> d6553b35989f17aa838fb7f6acd19801ab119919
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .ventana {
     width: 40%;
     background:  rgb(215 231 247);
@@ -34,4 +35,42 @@ button.btn-nuevo.btn.btn-success {
     width: 53 px;
     height: 40px;
     
+=======
+.ventana {
+    width: 40%;
+    background:  rgb(215 231 247);
+    padding: 38px;
+    margin-top: 10px;
+    margin-left: 30%;
+    border-radius: 15px;
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    margin-top: 12px;
+}
+.table .thead-light th {
+    color: rgb(17, 16, 16);
+    background-color:  rgb(215 231 247);
+    border-color: #779ced;
+    padding: 9px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #288fa7;
+    border-color: #288fa7;
+    width: 60px;
+    height: 49px;
+    padding: 1px;
+    margin: 5px;
+}
+button.btn-nuevo.btn.btn-success {
+    color: #fff;
+    background-color: #288fa7;
+    border-color: #288fa7;
+    width: 53 px;
+    height: 40px;
+    
+>>>>>>> d6553b35989f17aa838fb7f6acd19801ab119919
 }

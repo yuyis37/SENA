@@ -3,7 +3,10 @@ import { CitaService } from 'src/app/service/cita.service';
 import { MensajeriaService } from 'src/app/service/mensajeria.service';
 import { PeticionService } from 'src/app/service/peticion.service';
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d6553b35989f17aa838fb7f6acd19801ab119919
 @Component({
   selector: 'app-cita',
   templateUrl: './cita.component.html',
@@ -55,9 +58,15 @@ export class CitaComponent implements OnInit {
     data:{
       nombre:this.nombre,
       identificacion:this.identificacion,
+<<<<<<< HEAD
       telefono:this.telefono,
       dia:this.dia,
       hora:this.hora
+=======
+      email:this.telefono,
+      direccion:this.dia,
+      telefono:this.hora
+>>>>>>> d6553b35989f17aa838fb7f6acd19801ab119919
     }
   }
   this.peticion.Post(post.host + post.path, post.data).then((res:any) =>{
